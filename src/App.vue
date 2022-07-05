@@ -10,5 +10,7 @@ import { RouterView } from "vue-router";
 <style>
 @import "@/assets/base.css";
 #background-image {
+  width: 100%;
+  height: auto;
 }
 </style>
