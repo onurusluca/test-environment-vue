@@ -9,5 +9,21 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
+
+    <!-- AIMY Embed -->
+    <script>
+      (function (a) {
+        const div = a.createElement("div");
+        div.setAttribute("id", "aimy-app");
+        a.body.appendChild(div);
+        s = a.createElement("script");
+        s.async = 1;
+        s.src =
+          "https://aimy-setting-backet-dev.s3.ap-northeast-1.amazonaws.com/mf__ja/aimy_conf.js";
+        s.setAttribute("crossorigin", "*");
+        a.head.appendChild(s);
+      })(document);
+    </script>
+    <!-- end AIMY Embed -->
   </body>
 </html>
