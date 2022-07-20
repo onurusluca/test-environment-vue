@@ -1,59 +1,55 @@
-# aimy-test-environment-vue
+# HeroUI - Giraffe
 
-This template should help get you started developing with Vue 3 in Vite.
+![images](images/preview.png)
 
-## Recommended IDE Setup
+Giraffe is a complete application theme, Giraffe theme built with [Vuetify](https://vuetifyjs.com/) created
+by [HeroUI](https://heroui.net/). It is a solution that displays dense content, such as news, blogs or magazines,
+including news, authors, classified pages, and so on. Giraffe are characterized by a large number of components
+assembled together and look amazing. If you are a new company and want to create your online image, or if you just want
+people to know who you are and what you do, this may be your answer.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Preview
 
-## Type Support for `.vue` Imports in TS
+**[View Live Preview](https://giraffe.heroui.net/)**
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Usage
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### Basic Usage
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Clone the source files of the theme and navigate into the theme's root directory. Run `yarn` and then run `yarn dev`
+which will open up a preview of the template in your default browser, watch for changes to core template files, and live
+reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
 
-## Customize configuration
+#### Scripts
+We have now switched to the Vite build tool, which is much faster.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- `yarn dev` start a vite dev server
+- `yarn build` build all file to `dist`
 
-## Project Setup
+## Bug & Issues
 
-```sh
-npm install
-```
+Have a bug or an issue with this template? [Open a new issue](https://github.com/AGDholo/giraffe/issues).
 
-### Compile and Hot-Reload for Development
+## About
 
-```sh
-npm run dev
-```
+Giraffe is an open source library of free Vuetify themes and templates。All of the free themes and templates on HeroUI
+are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-### Type-Check, Compile and Minify for Production
+- <https://heroui.net/>
+- <https://github.com/AGDholo>
 
-```sh
-npm run build
-```
+Giraffe based on the [Vuetify](https://vuetifyjs.com/) framework created
+by [stackFlam1ngo](https://twitter.com/stackFlam1ngo).
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## Copyright and License
 
-```sh
-npm run test:unit
-```
+Copyright 2022 HeroUI LLC. Code released under the [MIT](https://github.com/AGDholo/giraffe/blob/master/LICENSE)
+license.
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+## Sponsor
 
-```sh
-npm run build
-npm run test:e2e # or `npm run test:e2e:ci` for headless testing
-```
+I accept all sponsorship, if you want to cooperate, please feel free to contact me.
 
-### Lint with [ESLint](https://eslint.org/)
+![WebStorm logo](https://resources.jetbrains.com/storage/products/company/brand/logos/WebStorm.png)
 
-```sh
-npm run lint
-```
+

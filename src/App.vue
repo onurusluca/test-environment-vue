@@ -1,16 +1,23 @@
-<script setup lang="ts">
-import { RouterView } from "vue-router";
-</script>
-
 <template>
-  <img src="@/assets/bg-image.png" alt="" id="background-image" />
-  <RouterView />
+  <v-app>
+    <AppBar></AppBar>
+
+    <v-container class="mt-16">
+      <router-view></router-view>
+    </v-container>
+
+    <Footer></Footer>
+  </v-app>
 </template>
 
-<style>
-@import "@/assets/base.css";
-#background-image {
-  width: 100%;
-  height: auto;
-}
-</style>
+<script>
+export default {
+  name: "App",
+
+  components: {
+    AppBar: () => import("@/components/layout/appbar.vue"),
+    Footer: () => import("@/components/layout/footer.vue"),
+  },
+  data: () => ({}),
+};
+</script>
